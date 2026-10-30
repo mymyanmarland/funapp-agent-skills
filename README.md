@@ -49,6 +49,10 @@ This starter is built locally only. It has NOT been published to GitHub, and it 
 
 After install, test on a small project first: run `/spec` for a small feature and check that the spec includes responsive, tabbed pages, stack, auth, test criteria, and the domain question. If a section is missing, the override was not picked up — check the skill's frontmatter and the override block, not the upstream body.
 
+## Note on the upstream workflow file
+
+The upstream `.github/workflows/test-plugin-install.yml` file is kept in the local folder but is NOT pushed to GitHub in this publish: the GitHub token used here returns 403 "Resource not accessible by personal access token" for workflow files, the same limit seen before with workflow uploads. The skills, commands, and references do not need that workflow file to work. If the workflow is wanted on GitHub, add that one file manually through the GitHub web UI (repo → Add file → Upload files).
+
 ## What is NOT done yet
 
 - GitHub fork / publish as `mymyanmarland/funapp-agent-skills` — needs a separate go, and at publish time `plugin.json` name/repository should be updated from the upstream values kept here.

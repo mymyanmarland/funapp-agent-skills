@@ -41,10 +41,10 @@ The `AGENTS.md` file copied with the upstream repo is guidance for agents workin
 
 ## How to use this pack locally
 
-This starter is built locally only. It has NOT been published to GitHub, and it has NOT been deployed to Ko Pai or Cursor — those need the owner's separate go.
+Published to GitHub: https://github.com/mymyanmarland/funapp-agent-skills (v1 commit 865df5157e997fc7c4cd5be3e71326b0f2641eef, 2026-10-31). It has NOT been deployed to Ko Pai or Cursor — those need the owner's separate go.
 
 - Any agent (Cursor, Codex, others): install from this folder with the skills CLI, for example `npx skills add <path-to-this-folder>`, then restart the agent.
-- Claude Code: install as a plugin from your own fork once this folder is published to GitHub as `funapp-agent-skills`; until then, use the local folder path.
+- Claude Code: install as a plugin from https://github.com/mymyanmarland/funapp-agent-skills (plugin name `funapp-agent-skills`).
 - Muse (this chat): the method is already in use — ask stepwise (spec, plan, build, test, review, ship) and the Funapp rules in `references/funapp-rules.md` are the same rules as Funapp Agent Pack v1.
 
 After install, test on a small project first: run `/spec` for a small feature and check that the spec includes responsive, tabbed pages, stack, auth, test criteria, and the domain question. If a section is missing, the override was not picked up — check the skill's frontmatter and the override block, not the upstream body.
@@ -55,7 +55,7 @@ The upstream `.github/workflows/test-plugin-install.yml` file is kept in the loc
 
 ## What is NOT done yet
 
-- GitHub fork / publish as `mymyanmarland/funapp-agent-skills` — needs a separate go, and at publish time `plugin.json` name/repository should be updated from the upstream values kept here.
+- GitHub publish is DONE (see above). `plugin.json` name/repository were updated to funapp-agent-skills at publish time.
 - Ko Pai deployment — needs a separate go and the two-phase sync used for Funapp Agent Pack v1.
 - Cursor per-project install — the owner installs from this folder into their own Cursor projects, or asks Muse to prepare a per-project file.
 - Next customization batch — documentation-and-adrs, browser-testing-with-devtools, and any new Funapp-only skills (for example a VPS deploy check skill).

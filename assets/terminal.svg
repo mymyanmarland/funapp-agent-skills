@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-label="Agent terminal demo">
+<rect width="1200" height="430" rx="20" fill="#0b1026"/>
+<rect x="0" y="0" width="1200" height="50" rx="20" fill="#1e293b"/>
+<circle cx="40" cy="25" r="10" fill="#ef4444"/><circle cx="75" cy="25" r="10" fill="#fbbf24"/><circle cx="110" cy="25" r="10" fill="#22c55e"/>
+<text x="150" y="32" font-family="monospace" font-size="20" fill="#cbd5e1">funapp-agent — spec → ship</text>
+<text x="50" y="90" font-family="monospace" font-size="24" fill="#fbbf24" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0s" dur="0.4s" fill="freeze"/>$  /spec  login feature</text>
+<text x="50" y="132" font-family="monospace" font-size="24" fill="#4ade80" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1s" dur="0.4s" fill="freeze"/>✓  Spec written: pages, auth, tests, domain question</text>
+<text x="50" y="174" font-family="monospace" font-size="24" fill="#fbbf24" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2s" dur="0.4s" fill="freeze"/>$  /plan</text>
+<text x="50" y="216" font-family="monospace" font-size="24" fill="#4ade80" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3s" dur="0.4s" fill="freeze"/>✓  Milestones split, one at a time, verified each step</text>
+<text x="50" y="258" font-family="monospace" font-size="24" fill="#fbbf24" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="4s" dur="0.4s" fill="freeze"/>$  /build  →  /test</text>
+<text x="50" y="300" font-family="monospace" font-size="24" fill="#4ade80" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="5s" dur="0.4s" fill="freeze"/>✓  Tests pass  •  diff reviewed  •  security checked</text>
+<text x="50" y="342" font-family="monospace" font-size="24" fill="#fbbf24" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="6s" dur="0.4s" fill="freeze"/>$  /ship</text>
+<text x="50" y="384" font-family="monospace" font-size="24" fill="#fbbf24" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="7s" dur="0.4s" fill="freeze"/>✓  Verified live on desktop + mobile  →  SHIPPED</text>
+
+<text x="50" y="410" font-family="monospace" font-size="18" fill="#64748b">Never report success from a code change alone. Verify, then ship.</text>
+</svg>

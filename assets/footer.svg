@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-label="Funapp footer">
+<defs><linearGradient id="fb" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#0b1026"/><stop offset="100%" stop-color="#0ea5a5"/></linearGradient></defs>
+<rect width="1200" height="220" fill="url(#fb)"/>
+<circle cx="1100" cy="40" r="50" fill="#fbbf24" opacity="0.2"><animate attributeName="r" values="50;65;50" dur="5s" repeatCount="indefinite"/></circle>
+<text x="600" y="95" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="bold" text-anchor="middle" fill="#ffffff">Funapp Agent Skills</text>
+<text x="600" y="140" font-family="Arial, Helvetica, sans-serif" font-size="22" text-anchor="middle" fill="#e0e7ff">Spec first. Test as you go. Ship with proof.</text>
+<text x="600" y="180" font-family="Arial, Helvetica, sans-serif" font-size="18" text-anchor="middle" fill="#fde68a">✦  Built for Funapp  •  MIT  •  Upstream credit: Addy Osmani  ✦</text>
+</svg>

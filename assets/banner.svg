@@ -1,47 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="Funapp Agent Skills banner">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b1026">
-        <animate attributeName="stop-color" values="#0b1026;#1e1b4b;#0b1026" dur="8s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="55%" stop-color="#312e81">
-        <animate attributeName="stop-color" values="#312e81;#6d28d9;#312e81" dur="8s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" stop-color="#0ea5a5">
-        <animate attributeName="stop-color" values="#0ea5a5;#0b1026;#0ea5a5" dur="8s" repeatCount="indefinite"/>
-      </stop>
-    </linearGradient>
-    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#fbbf24"/>
-      <stop offset="100%" stop-color="#fde68a"/>
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="400" fill="url(#bg)"/>
-  <circle cx="1050" cy="70" r="90" fill="#fbbf24" opacity="0.18">
-    <animate attributeName="cy" values="70;90;70" dur="6s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="120" cy="330" r="70" fill="#ffffff" opacity="0.10">
-    <animate attributeName="cx" values="120;150;120" dur="7s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="900" cy="320" r="40" fill="#fbbf24" opacity="0.25">
-    <animate attributeName="r" values="40;55;40" dur="5s" repeatCount="indefinite"/>
-  </circle>
-  <text x="70" y="90" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="4" fill="#fde68a">FUNAPP</text>
-  <text x="70" y="170" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="bold" fill="#ffffff">Agent Skills</text>
-  <text x="70" y="225" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#e0e7ff">Spec → Ship, the Funapp way</text>
-  <text x="70" y="265" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#c7d2fe">25 skills · 9 commands · Funapp rules on top of a proven upstream pack</text>
-  <g font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">
-    <rect x="70" y="295" width="130" height="40" rx="20" fill="#fbbf24"/>
-    <text x="135" y="321" fill="#111827">DEFINE</text>
-    <rect x="220" y="295" width="110" height="40" rx="20" fill="#ffffff" opacity="0.92"/>
-    <text x="275" y="321" fill="#111827">PLAN</text>
-    <rect x="350" y="295" width="110" height="40" rx="20" fill="#ffffff" opacity="0.92"/>
-    <text x="405" y="321" fill="#111827">BUILD</text>
-    <rect x="480" y="295" width="120" height="40" rx="20" fill="#ffffff" opacity="0.92"/>
-    <text x="540" y="321" fill="#111827">VERIFY</text>
-    <rect x="620" y="295" width="120" height="40" rx="20" fill="#ffffff" opacity="0.92"/>
-    <text x="680" y="321" fill="#111827">REVIEW</text>
-    <rect x="760" y="295" width="100" height="40" rx="20" fill="#fbbf24"/>
-    <text x="810" y="321" fill="#111827">SHIP</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-label="Funapp Agent Skills banner">
+<defs>
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#0b1026"><animate attributeName="stop-color" values="#0b1026;#1e1b4b;#0b1026" dur="9s" repeatCount="indefinite"/></stop>
+<stop offset="50%" stop-color="#312e81"><animate attributeName="stop-color" values="#312e81;#6d28d9;#312e81" dur="9s" repeatCount="indefinite"/></stop>
+<stop offset="100%" stop-color="#0e7490"><animate attributeName="stop-color" values="#0e7490;#0b1026;#0e7490" dur="9s" repeatCount="indefinite"/></stop>
+</linearGradient>
+<pattern id="dots" width="40" height="40" patternUnits="userSpaceOnUse"><circle cx="4" cy="4" r="2" fill="#ffffff" opacity="0.12"/></pattern>
+</defs>
+<rect width="1200" height="520" fill="url(#bg)"/>
+<rect width="1200" height="520" fill="url(#dots)"/>
+<circle cx="1080" cy="80" r="110" fill="#fbbf24" opacity="0.16"><animate attributeName="r" values="110;130;110" dur="6s" repeatCount="indefinite"/></circle>
+<circle cx="90" cy="430" r="80" fill="#ffffff" opacity="0.08"><animate attributeName="cx" values="90;120;90" dur="7s" repeatCount="indefinite"/></circle>
+<circle cx="1020" cy="400" r="55" fill="#fbbf24" opacity="0.22"><animate attributeName="cy" values="400;380;400" dur="5s" repeatCount="indefinite"/></circle>
+<g font-family="monospace" font-size="20" fill="#ffffff" opacity="0.25">
+<text x="40" y="50">/spec  /plan  /build  /test  /review  /ship</text>
+<text x="760" y="470">spec()  plan()  build()  test()  ship()</text>
+<text x="40" y="500">responsive  •  tabbed  •  secure  •  verified</text>
+</g>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="60" y="110" font-size="24" letter-spacing="6" fill="#fde68a">✦  FUNAPP  ✦</text>
+<text x="60" y="190" font-size="76" font-weight="bold" fill="#ffffff">Agent Skills</text>
+<text x="60" y="245" font-size="34" fill="#e0e7ff">Spec → Ship, the Funapp way</text>
+<text x="60" y="285" font-size="21" fill="#c7d2fe">25 skills  •  9 commands  •  8 Funapp-customized core skills</text>
+<text x="60" y="315" font-size="21" fill="#c7d2fe">No shortcuts. No untested ships. Proof at every step.</text>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="middle">
+<rect x="60" y="345" width="135" height="42" rx="21" fill="#fbbf24"/><text x="127" y="372" fill="#111827">DEFINE</text>
+<rect x="210" y="345" width="105" height="42" rx="21" fill="#ffffff"/><text x="262" y="372" fill="#111827">PLAN</text>
+<rect x="330" y="345" width="115" height="42" rx="21" fill="#ffffff"/><text x="387" y="372" fill="#111827">BUILD</text>
+<rect x="460" y="345" width="125" height="42" rx="21" fill="#ffffff"/><text x="522" y="372" fill="#111827">VERIFY</text>
+<rect x="600" y="345" width="125" height="42" rx="21" fill="#ffffff"/><text x="662" y="372" fill="#111827">REVIEW</text>
+<rect x="740" y="345" width="105" height="42" rx="21" fill="#fbbf24"/><text x="792" y="372" fill="#111827">SHIP</text>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="15" text-anchor="middle">
+<rect x="60" y="405" width="170" height="36" rx="18" fill="#111827" opacity="0.55"/><text x="145" y="428" fill="#fde68a">✓ spec-driven</text>
+<rect x="245" y="405" width="170" height="36" rx="18" fill="#111827" opacity="0.55"/><text x="330" y="428" fill="#ffffff">✓ test-driven</text>
+<rect x="430" y="405" width="190" height="36" rx="18" fill="#111827" opacity="0.55"/><text x="525" y="428" fill="#ffffff">✓ security-first</text>
+<rect x="635" y="405" width="210" height="36" rx="18" fill="#111827" opacity="0.55"/><text x="740" y="428" fill="#fde68a">✓ responsive + tabbed</text>
+</g>
+<g fill="#fbbf24">
+<circle cx="950" cy="140" r="6"><animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/></circle>
+<circle cx="990" cy="200" r="5"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.5s" repeatCount="indefinite"/></circle>
+<circle cx="930" cy="260" r="7"><animate attributeName="opacity" values="1;0.3;1" dur="3s" repeatCount="indefinite"/></circle>
+</g>
+<path d="M0,500 Q300,470 600,500 T1200,500 L1200,520 L0,520 Z" fill="#fbbf24" opacity="0.9"/>
 </svg>
